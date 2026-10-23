@@ -1,36 +1,30 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Swaadarpan
 
-## Getting Started
+A static-first handmade crochet and home décor storefront built with Next.js App Router, JavaScript, and Tailwind CSS. Product and category routes are generated from local data. There is no checkout, payment, or backend integration.
 
-First, run the development server:
+## Run locally
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open http://localhost:3000. Validate the project with `npm run lint` and `npm run build`.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Before launch
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. Copy `.env.example` to `.env.local` and set `NEXT_PUBLIC_SITE_URL` to the final HTTPS domain. Set email, WhatsApp, and Instagram variables only to verified business contact details.
+2. Replace the illustrative SVG files in `public/images/` with approved product photography. Update filenames, image alt text, and entries under `src/data/products.js` and `src/data/categories.js` together.
+3. Replace sample product descriptions, materials, dimensions, and care notes with verified information. Add prices only after they are confirmed. Current items are explicitly marked as samples and do not represent inventory or availability.
+4. Review the editable policy templates with the business and appropriate legal counsel before publishing.
+5. Add the brand's own story and any verified founder, location, process, or material details where indicated.
 
-## Learn More
+## Structure
 
-To learn more about Next.js, take a look at the following resources:
+- `app/`: App Router pages, dynamic product/category/inspiration routes, metadata, sitemap, and robots.
+- `src/data/`: local JavaScript product and category catalogs.
+- `src/components/`: shared navigation, footer, breadcrumbs, cards, and policy layout.
+- `src/lib/seo.js`: configurable site origin and JSON-LD helpers.
+- `public/images/`: local illustrative placeholder artwork, not product photography.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+The default canonical origin is `https://swaadarpan.example`; configure `NEXT_PUBLIC_SITE_URL` before deployment. No reviews, prices, stock claims, customer contact details, or legally binding commitments are fabricated.
