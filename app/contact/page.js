@@ -12,7 +12,8 @@ export const metadata = {
   },
 };
 
-const email = process.env.NEXT_PUBLIC_CONTACT_EMAIL;
+const email =
+  process.env.NEXT_PUBLIC_CONTACT_EMAIL || "aparnakamble238@gmail.com";
 const phone = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER?.replace(/\D/g, "");
 const instagram = process.env.NEXT_PUBLIC_INSTAGRAM_URL;
 

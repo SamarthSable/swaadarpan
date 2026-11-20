@@ -24,6 +24,7 @@ export function organizationJsonLd() {
     "@type": "Organization",
     name: "Swaadarpan",
     url: siteUrl,
+    email: process.env.NEXT_PUBLIC_CONTACT_EMAIL || "aparnakamble238@gmail.com",
     description: "A handmade crochet and home décor brand.",
   };
 }

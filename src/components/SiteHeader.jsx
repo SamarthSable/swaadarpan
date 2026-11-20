@@ -2,7 +2,8 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import { Menu, X, ArrowUpRight, Sparkles } from "lucide-react";
+import Image from "next/image";
+import { Menu, X, ArrowUpRight } from "lucide-react";
 import { motion, AnimatePresence, useReducedMotion } from "motion/react";
 
 const links = [
@@ -36,9 +37,14 @@ export default function SiteHeader() {
           aria-label="Swaadarpan home"
           onClick={() => setOpen(false)}
         >
-          <span className="sw-brand-icon" aria-hidden="true">
-            <Sparkles size={17} strokeWidth={1.6} />
-          </span>
+          <Image
+            className="sw-header-logo"
+            src="/images/swaadarpan-logo.jpeg"
+            alt="Swaadarpan handmade crochet logo"
+            width={58}
+            height={58}
+            priority
+          />
 
           <span className="sw-brand-copy">
             <span className="sw-brand-name">

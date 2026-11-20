@@ -5,7 +5,7 @@ export const categories = [
     title: "Crochet Flowers & Bouquets",
     intro:
       "Colourful handmade crochet flowers and keepsake bouquets, shaped one stitch at a time.",
-    image: "/images/flower.svg",
+    image: "/images/crochet-red-flower-bouquet.jpeg",
   },
   {
     slug: "crochet-bags",
@@ -13,15 +13,15 @@ export const categories = [
     title: "Crochet Bags & Accessories",
     intro:
       "Textured crochet bags and small accessories made to bring a little character to everyday outings.",
-    image: "/images/bag.svg",
+    image: "/images/black-white-crochet-tote.jpeg",
   },
   {
     slug: "home-decor",
-    name: "Home Décor",
-    title: "Handmade Crochet Home Décor",
+    name: "Home Decor",
+    title: "Handmade Crochet Home Decor",
     intro:
       "Soft, thoughtful crochet details for living spaces, shelves, and favourite corners at home.",
-    image: "/images/cushion.svg",
+    image: "/images/crochet-flower-curtain-tiebacks.jpeg",
   },
   {
     slug: "wall-hangings",
@@ -29,7 +29,7 @@ export const categories = [
     title: "Crochet Wall Hangings",
     intro:
       "Artisan-crafted wall accents that add texture and a personal touch to your space.",
-    image: "/images/wall.svg",
+    image: "/images/crochet-circle-wall-hanging.jpeg",
   },
   {
     slug: "handmade-gifts",
@@ -37,7 +37,7 @@ export const categories = [
     title: "Thoughtful Handmade Gifts",
     intro:
       "Small handmade finds and giftable details for birthdays, celebrations, and just because.",
-    image: "/images/gift.svg",
+    image: "/images/crochet-bow-hair-clips.jpeg",
   },
 ];
 

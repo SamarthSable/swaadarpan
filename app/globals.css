@@ -2255,6 +2255,14 @@
   text-decoration: none;
 }
 
+.sw-header-logo {
+  display: block;
+  width: 68px;
+  height: 68px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
 .sw-brand-icon {
   width: 38px;
   height: 38px;
@@ -2460,6 +2468,11 @@
 
   .sw-brand-name {
     font-size: 24px;
+  }
+
+  .sw-header-logo {
+    width: 58px;
+    height: 58px;
   }
 
   .sw-brand-icon {

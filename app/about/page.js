@@ -69,8 +69,8 @@ export default function AboutPage() {
         <div className="sw-about-art-column">
           <div className="sw-about-art-frame">
             <Image
-              src="/images/handmade.svg"
-              alt="Illustration celebrating the texture and beauty of handmade crochet"
+              src="/images/crochet-leaf-hair-ties.jpeg"
+              alt="Colourful crochet leaf hair ties arranged on a soft background"
               fill
               priority
               sizes="(max-width: 760px) 100vw, 48vw"

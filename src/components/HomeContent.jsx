@@ -117,8 +117,8 @@ export default function HomeContent() {
             }}
           >
             <Image
-              src="/images/hero-crochet.svg"
-              alt="Handmade crochet flower bouquet in soft pastel colours"
+              src="/images/crochet-red-flower-bouquet.jpeg"
+              alt="Hand holding a bouquet of red crochet flowers"
               fill
               priority
               sizes="(max-width: 800px) 90vw, 48vw"
@@ -227,8 +227,8 @@ export default function HomeContent() {
         <Reveal className="modern-story-art">
           <div className="story-image-frame">
             <Image
-              src="/images/handmade.svg"
-              alt="Illustration inspired by handmade crochet stitches"
+              src="/images/black-white-crochet-tote.jpeg"
+              alt="Black and cream striped crochet tote bag on grass"
               fill
               sizes="(max-width: 800px) 90vw, 45vw"
             />
